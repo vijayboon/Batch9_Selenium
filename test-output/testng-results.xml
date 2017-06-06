@@ -2,42 +2,38 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28057" started-at="2017-06-06T03:13:47Z" finished-at="2017-06-06T03:14:15Z">
+  <suite name="Default suite" duration-ms="51402" started-at="2017-06-06T04:09:56Z" finished-at="2017-06-06T04:10:48Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="28057" started-at="2017-06-06T03:13:47Z" finished-at="2017-06-06T03:14:15Z">
+    <test name="Default test" duration-ms="51402" started-at="2017-06-06T04:09:56Z" finished-at="2017-06-06T04:10:48Z">
       <class name="Com.Project.Tracko.SetUp">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Com.Project.Tracko.SetUp@3e6fa38a]" name="beforeTest" is-config="true" duration-ms="11494" started-at="2017-06-06T08:43:47Z" finished-at="2017-06-06T08:43:58Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Com.Project.Tracko.SetUp@6f7fd0e6]" name="beforeTest" is-config="true" duration-ms="14463" started-at="2017-06-06T09:39:56Z" finished-at="2017-06-06T09:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="f()[pri:0, instance:Com.Project.Tracko.SetUp@3e6fa38a]" name="f" duration-ms="15245" started-at="2017-06-06T08:43:58Z" finished-at="2017-06-06T08:44:13Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+        <test-method status="FAIL" signature="f()[pri:0, instance:Com.Project.Tracko.SetUp@6f7fd0e6]" name="f" duration-ms="35201" started-at="2017-06-06T09:40:11Z" finished-at="2017-06-06T09:40:46Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[element not visible
   (Session info: chrome=58.0.3029.110)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 52 milliseconds
+Command duration or timeout: 30.21 seconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SHREE-PC', ip: '192.168.0.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Shree\AppData\Local\Temp\scoped_dir2284_12381}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 2ba297fb1147175ff484392b6be48aa2
-*** Element info: {Using=xpath, value=//button[@id='sub_btn_verify']}]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Shree\AppData\Local\Temp\scoped_dir7932_27290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 55d5ce4308ef3c1737ebbb635a4e9fb9]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=58.0.3029.110)
   (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 52 milliseconds
+Command duration or timeout: 30.21 seconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'SHREE-PC', ip: '192.168.0.3', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Shree\AppData\Local\Temp\scoped_dir2284_12381}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: 2ba297fb1147175ff484392b6be48aa2
-*** Element info: {Using=xpath, value=//button[@id='sub_btn_verify']}
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Shree\AppData\Local\Temp\scoped_dir7932_27290}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 55d5ce4308ef3c1737ebbb635a4e9fb9
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -45,12 +41,10 @@ Session ID: 2ba297fb1147175ff484392b6be48aa2
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at Com.Project.Tracko.Otp_SignUp.verifybtn_function(Otp_SignUp.java:28)
-	at Com.Project.Tracko.SetUp.f(SetUp.java:31)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:96)
+	at Com.Project.Tracko.Otp_SignUp.otptxtbox_function(Otp_SignUp.java:22)
+	at Com.Project.Tracko.SetUp.f(SetUp.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -78,15 +72,15 @@ Session ID: 2ba297fb1147175ff484392b6be48aa2
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Com.Project.Tracko.SetUp@3e6fa38a]" name="afterTest" is-config="true" duration-ms="1230" started-at="2017-06-06T08:44:14Z" finished-at="2017-06-06T08:44:15Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Com.Project.Tracko.SetUp@6f7fd0e6]" name="afterTest" is-config="true" duration-ms="1624" started-at="2017-06-06T09:40:46Z" finished-at="2017-06-06T09:40:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Com.Project.Tracko.SetUp -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -22,9 +22,11 @@ public class SetUp {
 	  Sign_Up ref=new Sign_Up(driver);
 	  ref.func();
 	  ref.signup();
+	  JDBCclass ref6=new JDBCclass();
+	  String UserName = ref6.jdbc();
 	  
 	  Creat_Acc ref2 =new Creat_Acc(driver);
-	  ref2.signbtn_function(name, email, mobail);
+	  ref2.signbtn_function(UserName, email, mobail);
 	  
 	  Otp_SignUp ref3=new Otp_SignUp(driver);
 	  ref3.otptxtbox_function();
